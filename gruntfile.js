@@ -93,6 +93,10 @@ module.exports = function (grunt) {
         files: ['<%= meta.scripts %>pages/*.js', '<%= meta.scripts %>*.js'],
         tasks: ['jshint', 'concat'],
       },
+      html: {
+        files: ['<%= meta.views %>/**/*.ejs'],
+        tasks: [],
+      },
     },
     clean: {
       options: {
