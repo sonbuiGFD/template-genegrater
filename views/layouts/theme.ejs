@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Theme</title>
+    <link rel="stylesheet" href="/build/style.css" />
+  </head>
+  <body>
+    <%- include('../partials/header.ejs') %>
+    <main><%- body %></main>
+    <%- include('../partials/footer.ejs') %>
+
+    <!-- Javascript -->
+    <script src="/public/js/jquery.min.js"></script>
+    <script src="/build/script.js"></script>
+
+    <!-- Hot Reload -->
+    <script src="//localhost:35729/livereload.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+
+# Use 2 spaces for the HTML files
+
+# The JSON files contain newlines inconsistently
+[*.ejs]
+insert_final_newline = false
+indent_size = 2
+
+# Makefiles always use tabs for indentation
+[Makefile]
+indent_style = tab
+
+# Batch files use tabs for indentation
+[*.bat]
+indent_style = tab

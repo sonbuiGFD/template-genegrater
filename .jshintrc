@@ -1,0 +1,22 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "sub": true,
+  "undef": true,
+  "unused": true,
+  "boss": true,
+  "eqnull": true,
+  "evil": true,
+  "loopfunc": true,
+  "browser": true,
+  "devel": true,
+  "expr": true,
+  "quotmark": "single",
+  "globals": {
+    "jQuery": true,
+    "$": true
+  }
+}

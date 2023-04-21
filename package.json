@@ -1,0 +1,30 @@
+{
+  "name": "theme-generater",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node app.js",
+    "watch": "grunt",
+    "min": "grunt min"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-ejs-layouts": "^2.5.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-sass": "^3.1.0",
+    "node-sass": "^8.0.0"
+  }
+}
